@@ -1,3 +1,5 @@
+## COVID-19 Live Tracking Website
+
 CoronaVirus Tracker was a collab between Sam Williams (ayunami2000 on GitHub), Ali Ahmad (aahmad4 on Github) & Myself. 
 
 

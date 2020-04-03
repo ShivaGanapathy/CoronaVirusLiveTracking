@@ -36,7 +36,7 @@ def graph(country,json_data):
     plt.title(title)
     plt.ylabel("Active Cases")
     plt.xlabel("Date")
-    plt.plot(xvals,yvals,label=country.title())
+    plt.plot(xvals[-10:],yvals[-10:],label=country.title())
     plt.legend()
     plt.savefig("/tmp/c/"+country+".png")
     
@@ -70,8 +70,8 @@ def comp(country1,country2,json_data1,json_data2):
     plt.title(title)
     plt.ylabel("Active Cases")
     plt.xlabel("Date")
-    plt.plot(xvals1,yvals1,label=country1.title())
-    plt.plot(xvals2,yvals2,label=country2.title())
+    plt.plot(xvals1[-10:],yvals1[-10:],label=country1.title())
+    plt.plot(xvals2[-10:],yvals2[-10:],label=country2.title())
     plt.legend()
     plt.savefig("/tmp/c/"+country1+"_"+country2+"__comp.png")
 

@@ -18,7 +18,7 @@ https://coronatracker.glitch.me/
 
 ## Clone
 ```bash
-git clone https://github.com/aahmad4/Live-Coronavirus-Tracker
+git clone https://github.com/ShivaGanapathy/CoronaVirusLiveTracking
 ```
 
 ## Implementation
